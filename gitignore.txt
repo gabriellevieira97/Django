@@ -1,0 +1,54 @@
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Ambiente virtual
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Configurações locais
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.pydevproject
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# Django stuff
+/*.pid
+
+# Arquivos de migração compilados (mas NÃO os .py)
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de cobertura e testes
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Configurações de ambiente
+*.env
+*.ini
+*.cfg
+
+# Mac/Linux/Windows lixo
+.DS_Store
+Thumbs.db
